@@ -2,3 +2,13 @@
 длина которых меньше либо равна 3 символа. Первоначальный массив можно ввести с клаиватуры,
 либо задать на старте выполнения алгоритма. */
 
+string[] array = new string[] { "Hello", "friends", "I", "glad", "to", "see", "you" };
+for (int i = 0; i < array.Length; i++)
+{
+    int str = array[i].Length;
+    if (str <= 3)
+    {
+        Console.Write($"{array[i]} ");
+    }
+}
+
